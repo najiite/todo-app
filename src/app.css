@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  html {
+    font-family: ui-sans-serif, sans-serif;
+  }
+    .nav-link {
+      @apply text-xl text-slate-700 hover:text-red-400 font-semibold 
+    }
+
+    .t-btn {
+      @apply rounded-lg text-slate-50 px-5 py-2 font-bold hover:shadow-2xl
+    }
+
+    .heading {
+        @apply text-center text-3xl text-slate-700 font-bold uppercase my-5
+    }
+
+    .input {
+        @apply appearance-none border-b-2 border-neutral-500 focus:outline-none focus:border-sky-900 mt-3
+    }
+  }
