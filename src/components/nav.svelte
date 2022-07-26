@@ -33,7 +33,7 @@
         <li class="m-5 divide-y"><a href="/" class="nav-link">Home</a></li>
         {#if $user }
           
-        <li class="m-5"><a href on:click={logout} class="nav-link">Logout</a></li>
+        <li class="m-5"><a href on:click={logout} class="nav-link">Logout({$user.email})</a></li>
         {/if}
     </ul>
     
