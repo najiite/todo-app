@@ -16,7 +16,7 @@
 </script>
 
 <Nav /> 
-<div class="container mx-auto max-w-lg p-6 mb-5">
+<div class="container mx-auto max-w-lg p-6 mx-5">
     {#if $user }
 
         <slot></slot>
